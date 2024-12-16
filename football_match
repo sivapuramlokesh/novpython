@@ -1,1 +1,15 @@
+age=int(input('enter your age:-'))
+usd_to_inr=80
+if age>=18 and age<=30:
+    cost=5 * usd_to_inr
+elif age >30 and age<=50:
+    cost =20 * usd_to_inr
+elif age>50:
+    cost=0
+else:
+    cost=None
+if cost is not None:
+    print(f'your ticket cost is :{cost}Rs')
+else:
+    print('invalid age for attending the match')
 
